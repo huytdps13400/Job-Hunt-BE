@@ -4,7 +4,7 @@ const axios = require("axios");
 
 const app = express();
 const PORT = process.env.PORT || 8080; // Port on which our app will run
-
+//call api
 app.get("/", async (req, res) => {
   // get random user api using axios and show it on the page in json
   await axios
